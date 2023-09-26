@@ -24,8 +24,6 @@
     box-sizing: border-box;
 }
 
-
-
 body {
   font-family: 'Poppins', sans-serif;
   background: var(--main_back) !important;
@@ -104,6 +102,20 @@ body {
     outline: none;
     font-weight: 500;
 }
+
+.icons{
+    margin-left: 620px;
+    margin-top: 80px; 
+}
+ 
+ .fb{
+    width: 5.9%;
+    margin-right: 20px;
+    
+ }
+ .li{
+     width: 5.9%;
+ }
 
 .result{
     height: 20vh;
@@ -209,20 +221,4 @@ footer {
     .title{
         font-size: .7rem !important;
     }
-}
-.icons{
-   margin-left: 620px;
-   margin-top: 80px; 
-   
-
-
-}
-
-.fb{
-   width: 5.9%;
-   margin-right: 20px;
-   
-}
-.li{
-    width: 5.9%;
 }
